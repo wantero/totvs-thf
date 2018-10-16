@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'totvs-thf';
+
+  menus = [
+    { label: 'Hello World', link: './hello-world' },
+  ];
 }
